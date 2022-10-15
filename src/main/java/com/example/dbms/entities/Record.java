@@ -10,6 +10,7 @@ public class Record {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 	public Record(int user_id, int house_id, Date date) {
 		super();
 		this.user_id = user_id;
