@@ -1,0 +1,123 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.login_page_background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+.login_page_container {
+  height: 18rem;
+  width: 24em;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  padding: 2.4rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+
+.login_email_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.4rem;
+  /* border: 2px solid green; */
+}
+
+.login_email_label {
+  font-size: 1.2rem;
+}
+
+.login_email_icon {
+  height: 1.4rem;
+  width: 1.2rem;
+  color: #087f5b;
+}
+
+.login_email_icon_input {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.login_email_input {
+  height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  flex: 1 0 auto;
+  border: none
+}
+
+.login_password_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid green; */
+}
+
+.login_password_label {
+  font-size: 1.2rem;
+}
+
+.login_password_input {
+  height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  flex: 1 0 auto;
+  border: none;
+}
+
+.login_password_icon {
+  height: 1.4rem;
+  width: 1.2rem;
+  color: #087f5b;
+}
+
+.login_password_icon_input {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+
+.login_button {
+  height: 3.6rem;
+  width: 12rem;
+  margin: auto auto 0 auto;
+  border-radius: 2.4rem;
+  border-color: white;
+  font-size: 1.8rem;
+  background-color: #087f5b;
+  color: white;
+  cursor: pointer;
+}
+
+.login_button:hover {
+  background-color: #086247;
+}
+
