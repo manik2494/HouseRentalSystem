@@ -17,7 +17,9 @@ public class House {
 	private String state;
 
 	private String house_description;
+	
 	private int bhk;
+	
 	private int rent;
 
 	private Date end_date;
