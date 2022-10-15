@@ -7,6 +7,7 @@ public class House {
 	private int house_id;
 	
 	private Double area;
+	
 	private int construction_year;
 
 	private String street;
@@ -16,7 +17,9 @@ public class House {
 	private String state;
 
 	private String house_description;
+	
 	private int bhk;
+	
 	private int rent;
 
 	private Date end_date;
