@@ -7,6 +7,7 @@ public class House {
 	private int house_id;
 	
 	private Double area;
+	
 	private int construction_year;
 
 	private String street;
